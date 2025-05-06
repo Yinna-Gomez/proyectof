@@ -1,10 +1,14 @@
+import { useState } from 'react'
 import './App.css'
+import Header from './Components/Header/Header.jsx'
 
-import React from 'react'
+function App() {
+  const [count, setCount] = useState(0)
 
-const App = () => {
   return (
-    <div>Hola mundo</div>
+    <>
+      <Header />
+    </>
   )
 }
 
